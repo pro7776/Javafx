@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="thirdTask.OrderFormController">
+    <HBox>
+        <CheckBox fx:id="steakCheck" text="Стейк" minWidth="100"/>
+        <TextField fx:id="steakQuantity" promptText="1"/>
+    </HBox>
+    <HBox>
+        <CheckBox fx:id="spaghettiCheck" text="Спагетти" minWidth="100"/>
+        <TextField fx:id="spaghettiQuantity" promptText="1"/>
+    </HBox>
+    <HBox>
+        <CheckBox fx:id="soupCheck" text="Суп" minWidth="100"/>
+        <TextField fx:id="soupQuantity" promptText="1"/>
+    </HBox>
+    <HBox>
+        <CheckBox fx:id="cheesecakeCheck" text="Чизкейк" minWidth="100"/>
+        <TextField fx:id="cheesecakeQuantity" promptText="1"/>
+    </HBox>
+    <Button text="Оформить заказ" onAction="#placeOrder"/>
+</VBox>
