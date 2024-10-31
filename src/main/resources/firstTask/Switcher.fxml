@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="firstTask.SwitcherController" alignment="CENTER" spacing="10">
+    <TextField fx:id="textField1" prefHeight="100" prefWidth="350" promptText="Введите текст"/>
+    <Button fx:id="switchButton" text="↓" onAction="#switchText" prefHeight="40" prefWidth="40"/>
+    <TextField fx:id="textField2" prefHeight="100" prefWidth="350"/>
+</VBox>
