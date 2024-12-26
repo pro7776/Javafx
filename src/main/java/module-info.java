@@ -3,9 +3,10 @@ module firstTask {
     requires javafx.fxml;
 
 
-    exports firstTask;
-    opens firstTask to javafx.fxml;
-    exports thirdTask;
-    opens thirdTask to javafx.fxml;
+    exports one;
+    opens one to javafx.fxml;
+
+    exports three;
+    opens three to javafx.fxml;
 
 }

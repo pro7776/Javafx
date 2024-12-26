@@ -1,11 +1,11 @@
-package thirdTask;
+package three;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.TextField;
 
-public class OrderFormController {
+public class threeController {
     @FXML
     private CheckBox steakCheck, spaghettiCheck, soupCheck, cheesecakeCheck;
     @FXML

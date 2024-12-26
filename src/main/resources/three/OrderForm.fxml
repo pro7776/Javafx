@@ -3,7 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="thirdTask.OrderFormController">
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="three.threeController">
     <HBox>
         <CheckBox fx:id="steakCheck" text="Стейк" minWidth="100"/>
         <TextField fx:id="steakQuantity" promptText="1"/>

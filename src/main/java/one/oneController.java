@@ -1,10 +1,10 @@
-package firstTask;
+package one;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 
-public class SwitcherController {
+public class oneController {
     @FXML
     private TextField textField1, textField2;
     @FXML
